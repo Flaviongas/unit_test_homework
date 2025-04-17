@@ -1,4 +1,3 @@
-from src.main import add
 
 def add(a, b):
     return a + b
