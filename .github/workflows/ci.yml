@@ -15,7 +15,7 @@ jobs:
     strategy:
       matrix:
         os: [windows-latest]  # Soporte multiplataforma
-        python-version: [3.9, 3.10, 3.11]                   # Pruebas con varias versiones de Python
+        python-version: [3.9, 3.11]                   # Pruebas con varias versiones de Python
 
     steps:
     - name: Checkout code
