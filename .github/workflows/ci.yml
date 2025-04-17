@@ -8,6 +8,7 @@ on:
 
 jobs:
   test:
+    timeout-minutes: 1
     name: Run Tests
     runs-on: ${{ matrix.os }}  # Corre en múltiples sistemas operativos
 
