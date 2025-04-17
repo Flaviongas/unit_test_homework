@@ -2,7 +2,6 @@ from unittest.mock import patch,Mock
 from unittest import TestCase
 from src.pagos import verificar_saldo_en_banco,procesar_pago
 
-# Moví el archivo fuera de test para que no tenga problemas importando el otro archivo
 
 
 class Tests(TestCase):
